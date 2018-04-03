@@ -54,6 +54,7 @@ public: $(WIKI_IS_PUBLIC)
 
 auth:
   defaultReadAccess: true
+  defaultWriteAccess: true
   local:
     enabled: true
   google:
