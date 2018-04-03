@@ -10,8 +10,7 @@
     "build": "node tools/fuse",
     "dev": "node tools/fuse -d",
     "dev-configure": "node tools/fuse -c",
-    "test": "jest",
-    "postinstall": "opencollective postinstall"
+    "test": "jest"
   },
   "bin": {
     "wiki": "wiki.js"
