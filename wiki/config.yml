@@ -57,9 +57,9 @@ auth:
   local:
     enabled: true
   google:
-    enabled: false
-    clientId: GOOGLE_CLIENT_ID
-    clientSecret: GOOGLE_CLIENT_SECRET
+    enabled: true
+    clientId: $(GOOGLE_CLIENT_ID)
+    clientSecret: $(GOOGLE_CLIENT_SECRET)
   microsoft:
     enabled: false
     clientId: MS_APP_ID
